@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Morphy Privacy Policy in English and Turkish.">
+  <title>Morphy Privacy Policy · AHM Labs</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="shell"><a class="brand" href="./"><img src="assets/morphy-logo.png" alt="Morphy logo">Morphy · AHM Labs</a></header>
+  <main class="shell">
+    <nav class="language-nav" aria-label="Language"><a href="#english" lang="en">English</a><a href="#turkce" lang="tr">Türkçe</a></nav>
+    <article id="english" lang="en">
+      <h1>Morphy Privacy Policy</h1>
+      <p class="meta"><strong>Publisher:</strong> AHM Labs<br><strong>Effective date:</strong> August 21, 2026</p>
+      <h2>1. Introduction</h2>
+      <p>This policy explains how Morphy processes information when you browse ready icons, create custom or AI-assisted icons, save items to your collection, export or share an image, and unlock Morphy Pro. Morphy does not require a user account and does not contain advertising.</p>
+      <h2>2. Information we process</h2>
+      <p><strong>Information you provide.</strong> When you use AI generation, we process the prompt and the style, background, and palette choices submitted with it. Names and design choices for custom icons are stored on your device.</p>
+      <p><strong>Technical information.</strong> Morphy creates a random UUID v4 installation identifier and stores it on your device. It is not an advertising identifier and is not intended to identify you by name. For AI requests it is sent to our Supabase Edge Functions, transformed server-side using keyed HMAC-SHA256, and only the resulting pseudonymous identifier is stored with usage records. Those records include generation attempts or reserved requests, successful-use counts reflected by quota release behavior, the relevant UTC day, and timestamps used for short-window rate limits.</p>
+      <p>Morphy does not directly ask for or collect your name, email address, phone number, postal address, precise location, contacts, full photo library, advertising ID, payment-card details, health data, biometric data, or an account password.</p>
+      <h2>3. Why we process information</h2>
+      <ul><li>To provide icon creation, collection, export, sharing, and language/theme preferences.</li><li>To generate AI-assisted images requested by you.</li><li>To enforce daily quotas and rate limits, prevent abuse and uncontrolled service cost, and protect service security.</li><li>To process and restore Morphy Pro purchase entitlement.</li></ul>
+      <h2>4. Artificial intelligence</h2>
+      <p>The AI flow is: your prompt and design options → Morphy → a Supabase Edge Function operated for AHM Labs → OpenAI → generated result → Morphy. Your prompt is therefore processed by Supabase and OpenAI for the purpose of fulfilling the generation request. OpenAI credentials remain server-side. Morphy stores the returned image in the app’s local document storage after a successful generation.</p>
+      <h2>5. On-device storage</h2>
+      <p>Language and theme preferences, onboarding state, your collection, custom icon records, the random installation identifier, and generated AI image files are stored locally using app storage. Exported images are written to your media library only when you choose <em>Save to device</em>. The operating-system share interface opens only when you choose <em>Share</em>. Morphy does not continuously scan or upload your photo library.</p>
+      <h2>6. Purchases and Morphy Pro</h2>
+      <p>Morphy Pro is a one-time lifetime unlock, not a subscription. Purchases are processed by Google Play Billing. Purchase status and entitlement may be processed through RevenueCat. Morphy does not directly receive or store your full credit- or debit-card details.</p>
+      <h2>7. Third-party services</h2>
+      <ul><li><strong>Supabase:</strong> Edge Functions, restricted database access, pseudonymous quota records, and secure server-side processing.</li><li><strong>OpenAI:</strong> processing of AI prompts and generation options to produce the requested image.</li><li><strong>RevenueCat:</strong> purchase-entitlement and restoration processing when production billing is configured.</li><li><strong>Google Play Billing:</strong> payment and purchase processing.</li></ul>
+      <p>Expo/EAS may be used to build and distribute Morphy but is not described here as a runtime processor for the data flows audited in this version.</p>
+      <h2>8. Retention</h2>
+      <p>Local information remains until you delete an item, clear the collection where supported, clear app data, or uninstall Morphy, subject to operating-system backup behavior. Pseudonymous usage records kept for AI quota enforcement, abuse prevention, and service security are retained for 30 days. A daily automated cleanup deletes records after that retention window. AI prompts are not stored in Morphy’s quota database; third-party processing is governed by the applicable providers’ practices.</p>
+      <h2>9. Security</h2>
+      <p>We use measures appropriate to the service, including HTTPS transport, server-side secrets, pseudonymous identifiers, restricted database roles and access, input validation, and abuse/rate limiting. No system can be guaranteed completely secure.</p>
+      <h2>10. Your choices and deletion</h2>
+      <p>You can remove individual collection items and clear your collection in Morphy. Removing an AI icon also removes its managed local image file. Uninstalling Morphy or clearing its app data removes locally controlled data, subject to device backup behavior. Because there is no account, we cannot locate a server record by name or email. For questions or requests concerning pseudonymous AI usage records, contact us with enough installation-related information to assess whether a record can be reliably identified without weakening other users’ privacy.</p>
+      <h2>11. Children’s privacy</h2>
+      <p>Morphy is a general-audience customization application and is not designed specifically for children. Store target-audience declarations must remain consistent with that positioning.</p>
+      <h2>12. Changes to this policy</h2>
+      <p>We may update this policy when Morphy, its providers, or legal requirements change. We will publish the revised policy with a new effective date.</p>
+      <h2>13. Contact</h2>
+      <p>Contact AHM Labs at <a href="mailto:support.ahmlabs@gmail.com">support.ahmlabs@gmail.com</a> for privacy questions or requests.</p>
+    </article>
+    <article id="turkce" lang="tr">
+      <h1>Morphy Gizlilik Politikası</h1>
+      <p class="meta"><strong>Yayıncı:</strong> AHM Labs<br><strong>Yürürlük tarihi:</strong> 21 Ağustos 2026</p>
+      <h2>1. Giriş</h2>
+      <p>Bu politika; hazır ikonlara göz atarken, özel veya yapay zekâ destekli ikon oluştururken, koleksiyonunu yönetirken, görsel kaydeder ya da paylaşırken ve Morphy Pro’yu etkinleştirirken bilgilerin nasıl işlendiğini açıklar. Morphy kullanıcı hesabı istemez ve reklam içermez.</p>
+      <h2>2. Hangi bilgileri işleriz</h2>
+      <p><strong>Doğrudan sağladığın bilgiler.</strong> Yapay zekâ üretiminde yazdığın prompt ile stil, arka plan ve palet seçimleri işlenir. Özel ikon adı ve tasarım seçimleri cihazında saklanır.</p>
+      <p><strong>Teknik bilgiler.</strong> Morphy rastgele bir UUID v4 kurulum kimliği oluşturur ve cihazında saklar. Bu bir reklam kimliği değildir ve seni gerçek kimliğinle tanımak için kullanılmaz. AI isteklerinde Supabase Edge Function’a gönderilir, sunucuda anahtarlı HMAC-SHA256 ile dönüştürülür ve kullanım kayıtlarıyla yalnızca ortaya çıkan takma kimlikli değer saklanır. Kayıtlar; üretim denemeleri veya ayrılan istekleri, kota geri bırakma davranışıyla yansıtılan başarılı kullanım sayısını, ilgili UTC gününü ve kısa süreli hız sınırı zamanlarını içerir.</p>
+      <p>Morphy doğrudan adını, e-posta adresini, telefonunu, posta adresini, hassas konumunu, kişilerini, tüm fotoğraf arşivini, reklam kimliğini, ödeme kartı ayrıntılarını, sağlık ya da biyometrik verilerini veya hesap parolanı istemez ve toplamaz.</p>
+      <h2>3. Bilgileri neden işleriz</h2>
+      <ul><li>İkon oluşturma, koleksiyon, dışa aktarma, paylaşma ve dil/tema tercihlerini sağlamak.</li><li>İstediğin AI görselini üretmek.</li><li>Günlük kota ve hız sınırlarını uygulamak; kötüye kullanımı, kontrolsüz maliyeti ve güvenlik risklerini önlemek.</li><li>Morphy Pro satın alma hakkını işlemek ve geri yüklemek.</li></ul>
+      <h2>4. Yapay zekâ özelliği</h2>
+      <p>Veri akışı şöyledir: prompt ve tasarım seçeneklerin → Morphy → AHM Labs adına çalışan Supabase Edge Function → OpenAI → üretilen sonuç → Morphy. Bu nedenle promptun, üretim talebini yerine getirmek amacıyla Supabase ve OpenAI tarafından işlenir. OpenAI erişim bilgileri yalnızca sunucuda tutulur. Başarılı üretimden dönen görsel Morphy’nin cihaz içi belge alanına kaydedilir.</p>
+      <h2>5. Cihaz içi depolama</h2>
+      <p>Dil ve tema tercihleri, onboarding durumu, koleksiyon, özel ikon kayıtları, rastgele kurulum kimliği ve üretilmiş AI görselleri uygulama depolamasında yerel olarak tutulur. Görsel yalnızca <em>Cihaza Kaydet</em> seçildiğinde medya arşivine yazılır; sistem paylaşım arayüzü yalnızca <em>Paylaş</em> seçildiğinde açılır. Morphy galerini sürekli taramaz veya fotoğraf arşivini yüklemez.</p>
+      <h2>6. Satın almalar ve Morphy Pro</h2>
+      <p>Morphy Pro abonelik değil, tek seferlik lifetime kilit açmadır. Ödemeler Google Play Billing tarafından işlenir. Satın alma durumu ve kullanım hakkı RevenueCat üzerinden işlenebilir. Morphy kredi veya banka kartının tüm bilgilerini doğrudan almaz ya da saklamaz.</p>
+      <h2>7. Üçüncü taraf hizmetler</h2>
+      <ul><li><strong>Supabase:</strong> Edge Functions, kısıtlı veritabanı erişimi, takma kimlikli kota kayıtları ve güvenli sunucu işlemleri.</li><li><strong>OpenAI:</strong> istenen görsel için prompt ve üretim seçeneklerinin işlenmesi.</li><li><strong>RevenueCat:</strong> production billing yapılandırıldığında satın alma hakkı ve geri yükleme işlemleri.</li><li><strong>Google Play Billing:</strong> ödeme ve satın alma işlemleri.</li></ul>
+      <p>Expo/EAS Morphy’yi derlemek ve dağıtmak için kullanılabilir; ancak denetlenen bu sürümde çalışma zamanı veri akışına giren bir işleyen olarak gösterilmemiştir.</p>
+      <h2>8. Veri saklama</h2>
+      <p>Yerel bilgiler; öğeyi silene, desteklenen koleksiyon temizleme işlemini kullanana, uygulama verisini temizleyene veya Morphy’yi kaldırana kadar, işletim sistemi yedekleme davranışı saklı kalmak üzere tutulur. AI kullanım kotası, kötüye kullanım önleme ve servis güvenliği amacıyla tutulan takma kimlikli kullanım kayıtları 30 gün saklanır. Günlük otomatik temizlik, bu saklama süresi dolan kayıtları siler. AI promptları Morphy’nin kota veritabanında saklanmaz; üçüncü taraf işlemleri ilgili sağlayıcıların uygulamalarına tabidir.</p>
+      <h2>9. Veri güvenliği</h2>
+      <p>HTTPS aktarımı, sunucu tarafı gizli bilgiler, takma kimlikli tanımlayıcılar, kısıtlı veritabanı rolleri, girdi doğrulama ve hız/kötüye kullanım sınırları gibi makul önlemler kullanırız. Hiçbir sistemin yüzde yüz güvenli olduğu garanti edilemez.</p>
+      <h2>10. Kullanıcı tercihleri ve silme</h2>
+      <p>Koleksiyondaki öğeleri tek tek kaldırabilir veya koleksiyonu temizleyebilirsin. AI ikonunun kaldırılması yönetilen yerel görsel dosyasını da siler. Uygulamayı kaldırmak veya uygulama verisini temizlemek, cihaz yedekleme davranışı saklı kalmak üzere yerel verileri kaldırır. Hesap olmadığı için sunucu kayıtlarını ad veya e-postayla bulamayız. Takma kimlikli AI kullanım kayıtlarıyla ilgili soru veya taleplerde, diğer kullanıcıların gizliliğini zayıflatmadan ilgili kaydın bulunup bulunamayacağını değerlendirebilmemiz için yeterli kurulum bilgisiyle bize ulaşabilirsin.</p>
+      <h2>11. Çocukların gizliliği</h2>
+      <p>Morphy genel kullanıcı kitlesine yönelik bir kişiselleştirme uygulamasıdır; özellikle çocuklar için tasarlanmamıştır. Mağaza hedef kitle beyanı bu konumlandırmayla uyumlu tutulmalıdır.</p>
+      <h2>12. Politika değişiklikleri</h2>
+      <p>Morphy, hizmet sağlayıcıları veya hukuki gereklilikler değiştiğinde bu politikayı güncelleyebiliriz. Güncel metin yeni yürürlük tarihiyle yayımlanır.</p>
+      <h2>13. İletişim</h2>
+      <p>Gizlilikle ilgili soru veya talepler için AHM Labs’e <a href="mailto:support.ahmlabs@gmail.com">support.ahmlabs@gmail.com</a> adresinden ulaşabilirsin.</p>
+    </article>
+  </main>
+  <footer class="shell"><a href="./">Morphy Legal</a> · <a href="terms.html">Terms of Use / Kullanım Koşulları</a></footer>
+</body>
+</html>
